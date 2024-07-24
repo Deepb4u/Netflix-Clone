@@ -43,7 +43,7 @@ img{
     width: 100%;
     height: 93vh;
     position: relative;
-    background: url('/web/Images/bg-img.jpg');
+    background: url('./assets/bg-img.jpg');
 }
 .showcase::after{
     content: '';
@@ -213,6 +213,12 @@ img{
     font-size: 0.9rem;
 }
 
+.footer li:hover{
+    color: #dddddd;
+    cursor: pointer;
+
+}
+
 .footer p{
     margin-bottom:1.5rem ;
 }
@@ -284,7 +290,8 @@ img{
     padding: 0.8rem 1.3rem;
     text-transform: uppercase;
 }
-.btn-icon{
+
+.showcase-content .btn i{
     margin-left: 1rem;
 }
 
